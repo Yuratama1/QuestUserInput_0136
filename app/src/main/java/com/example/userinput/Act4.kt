@@ -7,4 +7,5 @@ import androidx.compose.runtime.mutableStateOf
 fun FromDataDiri(modifier: Modifier){
     //variabel untuk mengingat nilai masukan dari keyboard
     var textName by remember { mutableStateOf(value = "") }
+    var textAlamat by remember { mutableStateOf(value = "") }
 }
