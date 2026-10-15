@@ -9,4 +9,5 @@ fun FromDataDiri(modifier: Modifier){
     var textName by remember { mutableStateOf(value = "") }
     var textAlamat by remember { mutableStateOf(value = "") }
     var textJK by remember { mutableStateOf(value = "") }
+    var gender:List<string> = listOf("Laki-Laki","Perempuan")
 }
